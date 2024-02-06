@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'book_management.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'books',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '2014',
         'HOST': 'localhost',
